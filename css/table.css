@@ -90,3 +90,11 @@ th, td {
 .table100-firstcol table {
   background-color: transparent;
 }
+
+.collapsed:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
